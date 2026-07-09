@@ -42,6 +42,10 @@
 /vendor/etc/fstab\.ramplus u:object_r:vendor_configs_file:s0
 /vendor/etc/gnss_antenna_info\.conf u:object_r:vendor_configs_file:s0
 /vendor/etc/gps\.conf u:object_r:vendor_configs_file:s0
+/vendor/etc/hyper u:object_r:vendor_configs_file:s0
+/vendor/etc/hyper/config_chipset\.json u:object_r:vendor_configs_file:s0
+/vendor/etc/hyper/config_hyper_permission\.json u:object_r:vendor_configs_file:s0
+/vendor/etc/hyper/config_vendor\.json u:object_r:vendor_configs_file:s0
 /vendor/etc/init u:object_r:vendor_configs_file:s0
 /vendor/etc/init/android\.hardware\.drm@1\.3-service\.clearkey\.rc u:object_r:vendor_configs_file:s0
 /vendor/etc/init/android\.hardware\.drm@1\.3-service\.widevine\.rc u:object_r:vendor_configs_file:s0
@@ -73,6 +77,11 @@
 /vendor/etc/mixer_usb_default\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/mixer_usb_gray\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/msm_irqbalance\.conf u:object_r:vendor_configs_file:s0
+/vendor/etc/perf u:object_r:vendor_configs_file:s0
+/vendor/etc/perf/perfboostsconfig\.xml u:object_r:vendor_configs_file:s0
+/vendor/etc/perf/perfconfigstore\.xml u:object_r:vendor_configs_file:s0
+/vendor/etc/perf/targetconfig\.xml u:object_r:vendor_configs_file:s0
+/vendor/etc/perf/targetresourceconfigs\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/powerhint\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3FA9_AMB667UM07_FHD\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/qdcm_calib_data_ss_dsi_panel_SW83106_FHD\.xml u:object_r:vendor_configs_file:s0
